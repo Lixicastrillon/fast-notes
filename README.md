@@ -1,5 +1,5 @@
  # **TO DO LIST** 📝
-A space will be created to create tasks with a level of significance so that their development is orderly and optimal.
+A space will be created to create homework.
 
 ## **📌 OBJETIVOS**
 
