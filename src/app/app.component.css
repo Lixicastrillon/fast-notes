@@ -1,0 +1,33 @@
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #313738;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+    padding-left: 2%
+  }
+  .image{
+    height: 50px;
+    width: 90px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-family: cursive;
+  }
+.content{
+  height: 86%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
