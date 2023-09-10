@@ -1,15 +1,30 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .toDoList{
-    margin-top: 10%;
+    width: 50%;
+    
 }
 .todo {
 	display: flex;
-	padding: 10px 15px;
-	background-color: #FFF;
-	border-bottom: 1px solid #DDD;
+	padding: 8px 10px 9px 9px;
+	background-color:#918686;
+	border-bottom: 1px solid#a495d8;
+    font-family: cursive;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
 }
 
 .todo:nth-child(even) {
-	background-color: #EEE;
+	background-color:#918686 ;
 }
 
 .todo:last-of-type {
@@ -18,10 +33,12 @@
 
 .todo .id {
 	flex: 1 1 50px;
+    font-family: cursive;
 }
 
 .todo .content {
 	flex: 1 1 100%;
+    font-family: cursive;
 }
 
 .todo.done .content {
@@ -32,28 +49,56 @@
 	display: block;
 	width: 100%;
 	padding: 10px 15px;
-	appearance: none;
-	border: none;
 	background-color: #918686;
 	margin-top: 15px;
-	font-size: 20px;
+	font-size: 16px;
 	outline: none;
+    font-family: cursive;
+    border-radius: 10px;
 }
+input::placeholder{
+    color:rgb(223, 205, 205)
+}
+
 
 .todo-submit {
 	display: block;
 	width: 100%;
-	max-width: 200px;
+	max-width: 100px;
 	appearance: none;
 	border: none;
 	outline: none;
-	background: none;
+    cursor: pointer;
 
-	background-color: #4beb0c;
-	color: #FFF;
-	margin: 15px auto;
+	background-color: #a495d8;
+	color: black  ;
+	margin: 10px auto;
+    border-radius: 5px;
 
 	padding: 10px 15px;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
+    font-family: cursive;
+}
+.todo-submit:hover{
+    background-color:#9586ce ;
+}
+.todo-submit:active{
+    background-color:#9f8ee4 ;
+}
+.delete{
+width: 25px;
+height: 25px;
+background-color:#a495d8 ;
+color: black  ;
+font-family: cursive;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.delete:hover{
+    background-color:#9586ce ;
+}
+.delete:active{
+    background-color:#9f8ee4 ;
 }
