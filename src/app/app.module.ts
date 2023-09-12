@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 /* app root*/
 import { AppComponent } from './app.component';
 
-import { PageComponent } from './component/page/page.component';
+import { PageComponent } from '../component/page/page.component';
 
 
 @NgModule({
