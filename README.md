@@ -1,7 +1,7 @@
  # **TO DO LIST** 📝
 A space will be created to create homework.
 
-## **📌 OBJETIVOS**
+## **📌 GOALS**
 
 - Create a home page that displays a list of tasks:
 
