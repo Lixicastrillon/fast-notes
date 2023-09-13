@@ -1,5 +1,6 @@
 <div class="container">
   <div class="toDoList">
+    //ejecuta addHomework
     <form (submit)="addHomework()">
       <input
         required
@@ -11,13 +12,16 @@
       />
       <input type="submit" value="add" class="todo-submit" />
     </form>
+    //recorre toDolist y se crea la clase dinamica
     <div
       *ngFor="let todo of toDoList; let i = index"
       class="todo {{ todo.completed ? 'done' : '' }}"
     >
+      //ejecuta toggleDone
       <div class="id">{{ i }}</div>
       <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
-      <button  class="delete" (click)="deleteHomework(i)"><b>X</b></button>
+      //ejecuta deleteHomework
+      <button class="delete" (click)="deleteHomework(i)"><b>X</b></button>
     </div>
   </div>
 </div>
